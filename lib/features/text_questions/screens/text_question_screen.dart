@@ -13,7 +13,7 @@ class TextQuestionScreen extends StatefulWidget {
   const TextQuestionScreen({super.key});
 
   @override
-  State<TextQuestionScreen> => _TextQuestionScreenState();
+  State<TextQuestionScreen> createState() => _TextQuestionScreenState();
 }
 
 class _TextQuestionScreenState
