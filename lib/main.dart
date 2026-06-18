@@ -12,9 +12,8 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   /// Firebase
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+ await Firebase.initializeApp();
+    
 
   /// تهيئة AdMob
   await MobileAds.instance.initialize();
